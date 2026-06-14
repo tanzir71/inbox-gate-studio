@@ -548,7 +548,7 @@ function Index() {
       {/* THREE-COLUMN WORKSPACE */}
       <div className="flex-1 grid grid-cols-12 min-h-0">
         {/* COL A — palette */}
-        <aside className="col-span-12 md:col-span-3 lg:col-span-2 border-r border-neutral-800 bg-neutral-900 overflow-y-auto">
+        <aside className="col-span-12 md:col-span-3 lg:col-span-2 border-r border-neutral-800 bg-neutral-900 overflow-y-auto flex flex-col">
           <div className="px-3 py-3 border-b border-neutral-800">
             <div className="text-[10px] uppercase tracking-[0.18em] text-neutral-500">Atomic Palette</div>
             <div className="text-sm text-white mt-0.5">Components</div>
