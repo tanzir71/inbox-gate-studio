@@ -548,7 +548,7 @@ function Index() {
       {/* THREE-COLUMN WORKSPACE */}
       <div className="flex-1 grid grid-cols-12 min-h-0">
         {/* COL A — palette */}
-        <aside className="col-span-12 md:col-span-3 lg:col-span-2 border-r border-neutral-800 bg-neutral-900 overflow-y-auto">
+        <aside className="col-span-12 md:col-span-3 lg:col-span-2 border-r border-neutral-800 bg-neutral-900 overflow-y-auto flex flex-col">
           <div className="px-3 py-3 border-b border-neutral-800">
             <div className="text-[10px] uppercase tracking-[0.18em] text-neutral-500">Atomic Palette</div>
             <div className="text-sm text-white mt-0.5">Components</div>
@@ -573,6 +573,10 @@ function Index() {
           <Accordion title="Advanced Injections" icon={<Code2 className="h-3.5 w-3.5" />}>
             <PaletteItem icon={<Code2 className="h-4 w-4" />} label="Raw Custom HTML / Code" onClick={() => addBlock({ id: uid(), type: "raw", style: defaultStyle(), html: "<!-- inline raw HTML -->\n<p>Custom content</p>" })} />
           </Accordion>
+
+          <div className="mt-auto px-3 py-3 border-t border-neutral-800">
+            <a href="https://tanziro.com" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[0.14em] text-neutral-500 hover:text-emerald-400 transition-colors">built by tanziro.com</a>
+          </div>
         </aside>
 
         {/* COL B — canvas */}
