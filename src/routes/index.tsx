@@ -573,6 +573,10 @@ function Index() {
           <Accordion title="Advanced Injections" icon={<Code2 className="h-3.5 w-3.5" />}>
             <PaletteItem icon={<Code2 className="h-4 w-4" />} label="Raw Custom HTML / Code" onClick={() => addBlock({ id: uid(), type: "raw", style: defaultStyle(), html: "<!-- inline raw HTML -->\n<p>Custom content</p>" })} />
           </Accordion>
+
+          <div className="mt-auto px-3 py-3 border-t border-neutral-800">
+            <a href="https://tanziro.com" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-[0.14em] text-neutral-500 hover:text-emerald-400 transition-colors">built by tanziro.com</a>
+          </div>
         </aside>
 
         {/* COL B — canvas */}
