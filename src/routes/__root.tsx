@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "InboxGate Neo-Studio" },
+      { name: "twitter:description", content: "Advanced HTML email template and newsletter compiler with a premium dark workspace." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8aec5723-a62f-45a8-afed-cc20bfbfcb08/id-preview-d285a3fe--60069dad-b400-4081-84ef-135229bc8828.lovable.app-1781427126462.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8aec5723-a62f-45a8-afed-cc20bfbfcb08/id-preview-d285a3fe--60069dad-b400-4081-84ef-135229bc8828.lovable.app-1781427126462.png" },
     ],
     links: [
       {
